@@ -1,0 +1,123 @@
+body {
+    height: auto;
+    color: grey;
+    font-size: 12pt;
+    font-family: "georgia";
+}
+
+#main {
+    float: left;
+    width: 480px;
+    margin-right: 8px;
+    margin-left: 30px;
+}
+
+#detail {
+    margin-left: 525px;
+    width: 480px;
+}
+
+.fulltable, .fulltable caption {
+    width: 1000px;
+}
+
+nav {
+    float: left;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    width: 1000px;
+    margin-left: 30px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+footer {
+    float: left;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    width: 1000px;
+    margin-left: 30px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+h1 {
+    padding: 15px;
+    font-size: 20pt;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
+
+div {
+    padding: 10px;
+    width: 1000px;
+    margin: auto;
+}
+
+p {
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+
+#line {
+    width: 1000px;
+    margin: auto;
+}
+
+ul {
+    width: 1000px;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    color: grey;
+}
+
+#home, #home caption {
+    width: 1000px;
+    margin: auto;
+}
+
+table, caption {
+    border: 1px solid grey;
+    padding: 5px;
+    width: 480px;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+tr {
+    padding: 5px;
+}

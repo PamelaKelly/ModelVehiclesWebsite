@@ -1,0 +1,40 @@
+COMP 30680 - Web Application Development
+Pamela Kelly - Student Number: 16200514
+
+NOTE ON IMAGES: 
+
+Please note that the url direction for my images is based on what worked on my laptop. I.E I have my dev folder in the htdocs folder of the XAAMP directory and the following links work on my laptop: /dev/pamela_kelly_A3_COMP30680/images/
+
+References: 
+>>Basic structure of establishing a database connection and using mysqli queries (prep and execution) is referenced from the tutorial solution scripts. I have adapted them to suit my purpose but the basic approach for using mysqli is drawn from the example in the tutorial solutions. 
+
+Other references used: 
+>>http://stackoverflow.com/questions/7778564/get-the-1st-5-largest-values-from-an-array
+
+>>http://stackoverflow.com/questions/933253/what-is-the-most-efficient-way-to-count-all-the-occurrences-of-a-specific-charac
+
+>>http://stackoverflow.com/questions/36725402/javascript-function-within-php-to-show-more-info-on-click-database-query
+
+Reference for sending request with <a href>: 
+>>http://www.w3schools.com/php/php_superglobals.asp
+
+For some of the more tricky techniques including use of isset for accessing the $_GET contents safely, I used this website: 
+>>http://php.net/manual/en/function.isset.php
+
+>>I have also used references from W3Schools for php syntax, methods for creating multidimensional arrays and in particular use of the super global variable $_GET. 
+
+>>I have also used examples from the lecture notes as a base for my use of the $_GET superglobal. 
+
+>>Used knowledge gained in our module on Relational Databases & Information Systems to form my sql queries and used MySQL Workbench to double check these queries. 
+
+FOR ERROR HANDLING: 
+>>I have a check in place in case the connection dies. 
+>>I have a check in place in case the query doesn't return any results. 
+>>I have a check in place in case the $_GET doesn't contain anything (i.e. nothing has been selected yet). 
+
+Notes on approach: 
+>>I tried to keep my website as minimal as possible - in design and in pre-loaded information. 
+
+>>I used php throughout without any use of javascript. I understand that it is possible to load the information and then use javascript to show/hide the divs based on selection. But while I can see that this is fine for this assignment, because the database is quite small, that it is not a scalable solution and I wanted to learn techniques that would applicable to bigger projects in the future. 
+
+>>As a result for any of the additional information that the user can select - the query is sent to the database only when the user selects to view that piece of information. I would be curious to know whether this process would slow down the website if we were dealing with large amounts of data.
